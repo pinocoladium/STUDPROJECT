@@ -1,0 +1,4 @@
+Function hello_world call in 2023-03-23 11:33:15.546929 with arguments () and {} ---- Function hello_world in 2023-03-23 11:33:15.546929 returned result: Hello World
+Function summator call in 2023-03-23 11:33:15.547926 with arguments (2, 2) and {} ---- Function summator in 2023-03-23 11:33:15.547926 returned result: 4
+Function div call in 2023-03-23 11:33:15.548924 with arguments (6, 2) and {} ---- Function div in 2023-03-23 11:33:15.548924 returned result: 3.0
+Function summator call in 2023-03-23 11:33:15.549921 with arguments (4.3,) and {'b': 2.2} ---- Function summator in 2023-03-23 11:33:15.549921 returned result: 6.5

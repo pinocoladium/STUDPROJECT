@@ -1,0 +1,9 @@
+Function hello_world call in 2023-03-23 11:32:36.156939 with arguments () and {} ---- Function hello_world in 2023-03-23 11:32:36.156939 returned result: Hello World
+Function summator call in 2023-03-23 11:32:36.157936 with arguments (2, 2) and {} ---- Function summator in 2023-03-23 11:32:36.157936 returned result: 4
+Function div call in 2023-03-23 11:32:36.158933 with arguments (6, 2) and {} ---- Function div in 2023-03-23 11:32:36.158933 returned result: 3.0
+Function summator call in 2023-03-23 11:32:36.159931 with arguments (4.3,) and {'b': 2.2} ---- Function summator in 2023-03-23 11:32:36.159931 returned result: 6.5
+Function summator call in 2023-03-23 11:32:36.160928 with arguments () and {'a': 0, 'b': 0} ---- Function summator in 2023-03-23 11:32:36.161925 returned result: 0
+Function flat_generator call in 2023-03-23 11:38:06.916488 with arguments ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) and {} ---- Function flat_generator in 2023-03-23 11:38:06.916488 returned result: <generator object flat_generator at 0x0000020124F462D0>
+Function flat_generator call in 2023-03-23 11:39:35.155604 with arguments ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) and {} ---- Function flat_generator in 2023-03-23 11:39:35.156644 returned result: <generator object flat_generator at 0x000001DF41C461F0>
+Function flat_generator call in 2023-03-23 11:39:35.157599 with arguments ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) and {} ---- Function flat_generator in 2023-03-23 11:39:35.158596 returned result: <generator object flat_generator at 0x000001DF41C461F0>
+Function flat_generator call in 2023-03-23 11:40:11.506094 with arguments ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) and {} ---- Function flat_generator in 2023-03-23 11:40:11.506094 returned result: <generator object flat_generator at 0x000002445EB461F0>

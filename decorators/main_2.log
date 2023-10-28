@@ -1,0 +1,1 @@
+Function flat_generator_2 call in 2023-03-23 11:40:11.507088 with arguments ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],) and {} ---- Function flat_generator_2 in 2023-03-23 11:40:11.508085 returned result: <generator object flat_generator_2 at 0x000002445EB461F0>

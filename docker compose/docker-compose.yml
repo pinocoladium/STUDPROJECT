@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    command: bash entrypoint.sh
+    ports:
+      - 8000:8000
+    depends_on:
+      - postgres
+    volumes:
+      - static:/home/app/web/staticfiles
+    env_file:
+      - ./.env
+
+  postgres:
+    image: 'postgres'
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    restart: unless-stopped
+    env_file:
+      - ./.env
+
+  nginx:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./nginx
+    ports:
+      - "80:80"
+    volumes:
+      - static:/home/app/web/staticfiles
+    depends_on:
+      - web
+
+volumes: 
+  postgres_data:
+  static:
